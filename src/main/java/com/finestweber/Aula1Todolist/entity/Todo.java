@@ -3,7 +3,7 @@ package com.finestweber.Aula1Todolist.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "tbl_todos")
+@Table(name = "tbla_todos")
 public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
